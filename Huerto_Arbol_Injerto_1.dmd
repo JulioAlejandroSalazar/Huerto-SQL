@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Huerto_Arbol_Injerto_1" id="800C448C-7CCC-9F98-F5E8-882471CF20FF" version="3.5">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-23 13:07:44 UTC</createdTime>
+<ownerDesignName>Huerto_Arbol_Injerto_1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>800C448C-7CCC-9F98-F5E8-882471CF20FF</designId>
+</OSDM_Design>

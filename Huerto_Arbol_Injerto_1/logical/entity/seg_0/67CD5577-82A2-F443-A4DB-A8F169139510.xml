@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67CD5577-82A2-F443-A4DB-A8F169139510" name="ESPECIE">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-23 14:25:05 UTC</createdTime>
+<ownerDesignName>Huerto_Arbol_Injerto_1</ownerDesignName>
+<engineerTo>
+<item key="48B2D362-D90C-A5FB-6E77-9C67E1CD8C6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_especie" id="7BFF1D99-BBB9-BFC2-F0D8-752CFAB1A3A6">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-23 14:25:18 UTC</createdTime>
+<ownerDesignName>Huerto_Arbol_Injerto_1</ownerDesignName>
+<engineerTo>
+<item key="48B2D362-D90C-A5FB-6E77-9C67E1CD8C6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_especie" id="2B663AD6-0FF0-FFDC-819E-7B2503020062">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-23 14:25:30 UTC</createdTime>
+<ownerDesignName>Huerto_Arbol_Injerto_1</ownerDesignName>
+<engineerTo>
+<item key="48B2D362-D90C-A5FB-6E77-9C67E1CD8C6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_arbol" id="21FC73BC-1C17-D937-BB02-7725E97E1D98">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-23 14:27:24 UTC</createdTime>
+<generatorID>BD376322-BE90-87AF-3944-08558ACA5936</generatorID>
+<ownerDesignName>Huerto_Arbol_Injerto_1</ownerDesignName>
+<engineerTo>
+<item key="48B2D362-D90C-A5FB-6E77-9C67E1CD8C6C" value="true"/>
+</engineerTo>
+<referedAttribute>24476810-9391-C11F-8B89-516F8FF0C9F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50C024B3-42DE-6C26-F224-749F1642426C" name="ESPECIE PK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-23 14:25:28 UTC</createdTime>
+<ownerDesignName>Huerto_Arbol_Injerto_1</ownerDesignName>
+<engineerTo>
+<item key="48B2D362-D90C-A5FB-6E77-9C67E1CD8C6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7BFF1D99-BBB9-BFC2-F0D8-752CFAB1A3A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

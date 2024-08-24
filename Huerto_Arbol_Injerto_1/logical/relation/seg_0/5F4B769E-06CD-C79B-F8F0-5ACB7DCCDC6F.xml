@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ARBOL_INJERTO" directorySegmentName="seg_0" id="5F4B769E-06CD-C79B-F8F0-5ACB7DCCDC6F">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-23 14:02:36 UTC</createdTime>
+<ownerDesignName>Huerto_Arbol_Injerto_1</ownerDesignName>
+<engineerTo>
+<item key="48B2D362-D90C-A5FB-6E77-9C67E1CD8C6C" value="true"/>
+</engineerTo>
+<sourcePk>A08F2A91-E3A2-E8F0-228B-5A348196E629</sourcePk>
+<targetPk>9BDEEC28-ECE4-4322-E357-8A95CF5D8011</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5FC6C3D6-E0A9-31B8-9F7B-EF2B53A544DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7343F340-C384-671F-41E9-2ED454B42AC2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
